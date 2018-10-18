@@ -2,7 +2,7 @@
 layout: page
 header:
 #        image_fullwidth: images/forum.png
-        image_fullwidth: images/forum.png
+        image_fullwidth: "forum.png"
 title: "Virtual History"
 subheadline: "Ein Projekt der Filmuniversitaet Babelsberg"
 teaser: "In diesem Projekt wird das Forum Romanum der Roemerzeit wiederbelebt"

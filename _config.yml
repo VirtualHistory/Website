@@ -25,7 +25,7 @@ title: "Virtual History Title"
 slogan: "Virtual History Slogan"
 description: "About this site: Das Projekt Virtual History will am Beispiel des antiken Forum Romanum in Rom zeigen, wie eine digitale Aufbereitung aktueller Forschungsergebnisse im Medium VR völlig neue sinnlich-intellektuelle Erfahrungen ermöglicht."
 #urlimg: "/images/"
-#urlimg: "https://virtualhistory.github.io/Website/images"
+urlimg: "https://virtualhistory.github.io/Website/images/"
  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

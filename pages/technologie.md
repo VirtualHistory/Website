@@ -1,7 +1,7 @@
 ---
 layout: page
 header:
-        image_fullwidth: forum.png
+        image_fullwidth: "forum.png"
 subheadline: "Die verwendeten Technologien"
 teaser: "Eine Liste der verwendeten Technologien wie VR, AR, Worterkennung, etc."
 permalink: "/technologie/"
