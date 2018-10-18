@@ -1,0 +1,12 @@
+- title: Start
+  url: "/"
+  side: left
+
+- title: Technologie
+  url: "/technologie/"
+  side: left
+
+- title: Kooperationspartner
+  url: "/kooperationspartner/"
+  side: left
+

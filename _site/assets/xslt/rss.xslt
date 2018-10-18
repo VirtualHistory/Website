@@ -6,87 +6,90 @@
 	<html>
 	<head>
 		<xsl:text disable-output-escaping="yes"><![CDATA[
-		<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>RSS Feed (Styled)</title>
-
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
-
-  
-
+	<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css" />
 	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-	<script>
-		WebFont.load({
-			google: {
-				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
-			}
-		});
-	</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+      }
+    });
+  </script>
 
-	<noscript>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
-	</noscript>
+  <noscript>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Volkhov' rel='stylesheet' type='text/css' />
+  </noscript>
 
+  
+	
+	<meta name="description" content="About this site: Das Projekt Virtual History will am Beispiel des antiken Forum Romanum in Rom zeigen, wie eine digitale Aufbereitung aktueller Forschungsergebnisse im Medium VR völlig neue sinnlich-intellektuelle Erfahrungen ermöglicht." />
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Facebook Optimization -->
+	<meta property="og:locale" content="en_EN" />
+	
+	<meta property="og:title" content="RSS Feed (Styled)" />
+	<meta property="og:description" content="About this site: Das Projekt Virtual History will am Beispiel des antiken Forum Romanum in Rom zeigen, wie eine digitale Aufbereitung aktueller Forschungsergebnisse im Medium VR völlig neue sinnlich-intellektuelle Erfahrungen ermöglicht." />
+	<meta property="og:url" content="http://localhost:4000//assets/xslt/rss.xslt" />
+	<meta property="og:site_name" content="Virtual History Title" />
+	
+
+	
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-	
-	
-	
-	
-	
-	
-	<link rel="canonical" href="http://localhost:4000/assets/xslt/rss.xslt">
-
-
-	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="RSS Feed (Styled)">
-	<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-	<meta property="og:url" content="http://localhost:4000/assets/xslt/rss.xslt">
-	<meta property="og:locale" content="en_EN">
-	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="Virtual History">
-	
 	
 
-
-	
-
-	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt" />
 
 	
 
 	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-	
-
+</head>
 		]]></xsl:text>
 	</head>
 	<body id="top-of-page">
@@ -96,19 +99,82 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Virtual History</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Virtual History Title</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
     </ul>
     <section class="top-bar-section">
 
       <ul class="right">
         
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
         
       </ul>
 
       <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="http://localhost:4000/">Start</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="http://localhost:4000/technologie/">Technologie</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="http://localhost:4000/kooperationspartner/">Kooperationspartner</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
         
         
       </ul>
@@ -119,14 +185,9 @@
 		
 
 <div id="masthead-no-image-header">
-	<div class="row">
-		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000/" title="Virtual History – ">
-				<img src="http://localhost:4000/assets/img/" alt="Virtual History – ">
-			</a>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
+
 </div><!-- /#masthead -->
+
 
 
 
@@ -138,7 +199,7 @@
 		
 
 
-<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">RSS feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
+<div class="alert-box warning radius text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">RSS feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
 </div>
 
 
@@ -199,7 +260,7 @@
             <h5 class="shadow-black"></h5>
 
             <p class="shadow-black">
-              Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+              About this site: Das Projekt Virtual History will am Beispiel des antiken Forum Romanum in Rom zeigen, wie eine digitale Aufbereitung aktueller Forschungsergebnisse im Medium VR völlig neue sinnlich-intellektuelle Erfahrungen ermöglicht.
               <a href="http://localhost:4000/info/"></a>
             </p>
           </div><!-- /.large-6.columns -->
@@ -207,7 +268,7 @@
 
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
             
-
+              
               <ul class="no-bullet shadow-black">
               
               </ul>
@@ -216,7 +277,7 @@
 
           <div class="small-6 medium-3 large-3 columns">
             
-
+              
             <ul class="no-bullet shadow-black">
             
             </ul>
@@ -228,12 +289,16 @@
 
       <div id="subfooter">
         <nav class="row">
-          <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            
+          <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
+            <p>
+              Leave some &hearts;
+              for&nbsp;
+              <a href="http://phlow.de" alt="Theme created by Phlow">Phlow</a>
+            </p>
           </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
-            <ul class="inline-list social-icons">
+          <section id="subfooter-right" class="small-12 medium-6 columns social-icons">
+            <ul class="inline-list">
             
             </ul>
           </section>
