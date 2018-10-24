@@ -2,16 +2,16 @@
 
 
 # Local version ###############################################################
-theme: jekyll-theme-feeling-responsive
-plugins:
-  - jekyll-feed
-urlimg: "/images/"
-# or remote version ###########################################################
-#remote_theme: Phlow/feeling-responsive@gh-pages
+#theme: jekyll-theme-feeling-responsive
 #plugins:
 #  - jekyll-feed
-#  - jekyll-remote-theme
-#urlimg: "https://virtualhistory.github.io/Website/images/"
+#urlimg: "/images/"
+# or remote version ###########################################################
+remote_theme: Phlow/feeling-responsive@gh-pages
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+urlimg: "https://virtualhistory.github.io/Website/images/"
 ############################################################################### 
 
 markdown: kramdown
