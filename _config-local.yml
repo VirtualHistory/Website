@@ -1,10 +1,9 @@
 # Virtual History Website Configuration
 
-remote_theme: Phlow/feeling-responsive@gh-pages
+theme: jekyll-theme-feeling-responsive
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-urlimg: "https://virtualhistory.github.io/Website/images/"
+urlimg: "/images/"
 
 markdown: kramdown
 
