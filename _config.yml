@@ -2,16 +2,16 @@
 
 
 # Local version ###############################################################
-#theme: jekyll-theme-feeling-responsive
-#plugins:
-#  - jekyll-feed
-#urlimg: "/images/"
-# or remote version ###########################################################
-remote_theme: Phlow/feeling-responsive@gh-pages
+theme: jekyll-theme-feeling-responsive
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-urlimg: "https://virtualhistory.github.io/Website/images/"
+urlimg: "/images/"
+# or remote version ###########################################################
+#remote_theme: Phlow/feeling-responsive@gh-pages
+#plugins:
+#  - jekyll-feed
+#  - jekyll-remote-theme
+#urlimg: "https://virtualhistory.github.io/Website/images/"
 ############################################################################### 
 
 markdown: kramdown
@@ -20,7 +20,8 @@ markdown: kramdown
 title: "Virtual History Title"
 slogan: "Virtual History Slogan"
 description: "About this site: Das Projekt Virtual History will am Beispiel des antiken Forum Romanum in Rom zeigen, wie eine digitale Aufbereitung aktueller Forschungsergebnisse im Medium VR völlig neue sinnlich-intellektuelle Erfahrungen ermöglicht."
-logo: logo.png
+logo: "logo.png"
+favicon-32x32: "favicon-32x32.png"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
