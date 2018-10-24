@@ -15,7 +15,11 @@
   - title: "Förderung"
     url: "/projekt/foerderung/"
 
-- title: Kooperationspartner
-  url: "/kooperationspartner/"
+- title: Impressionen
+  url: "/impressionen/"
+  side: left
+
+- title: Kontakt
+  url: "/kontakt/"
   side: left
 
