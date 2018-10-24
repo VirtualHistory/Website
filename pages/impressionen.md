@@ -6,7 +6,7 @@ subheadline: "Impressionen"
 #teaser: "Alle Kooperationspartner dieses Projekts"
 permalink: "/impressionen/"
 gallery:
-  - image_url: forum50.png
+  - image_url: Assetplan_v02_web.jpg
 ---
 Impressionen von unserem Projekt.
 Die Galerie:
