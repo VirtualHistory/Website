@@ -2,9 +2,18 @@
   url: "/"
   side: left
 
-- title: Technologie
-  url: "/technologie/"
+- title: Projekt
+  url: "/projekt/"
   side: left
+  dropdown:
+  - title: "Forschung"
+    url: "/projekt/forschung/"
+  - title: "Team"
+    url: "/projekt/team/"
+  - title: "Kooperationspartner"
+    url: "/projekt/kooperationspartner/"
+  - title: "Förderung"
+    url: "/projekt/foerderung/"
 
 - title: Kooperationspartner
   url: "/kooperationspartner/"
