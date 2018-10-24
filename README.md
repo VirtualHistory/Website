@@ -7,3 +7,7 @@ Dazu müssen die selbsterklärenden Zeilen in den beiden Dateien Gemfile und _co
 ## Bauen und anschauen der Seite
 
 Nach einfachem Editieren langt ein einfaches `bundle exec jekyll serve`, ansonsten `bundle update`, `bundle install` und `bundle exec jekyll serve`.
+
+## Lage der Dateien
+
+Die Navigationsleiste oben wird unter `_data/navigation.yml` editiert, die einzelnen Seiten unter `pages/*`.
