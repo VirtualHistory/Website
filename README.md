@@ -6,7 +6,7 @@ Dazu müssen die selbsterklärenden Zeilen in den beiden Dateien Gemfile und _co
 
 ## Bauen und anschauen der Seite
 
-Nach einfachem Editieren langt ein einfaches `bundle exec jekyll serve`, ansonsten `bundle update`, `bundle install` und `bundle exec jekyll serve`.
+Nach einfachem Editieren langt ein einfaches `bundle exec jekyll serve`, ansonsten `bundle update`, `bundle install` und `bundle exec jekyll serve`. Danach kann die Seite unter `localhost:4000` aufgerufen werden.
 
 ## Lage der Dateien
 
