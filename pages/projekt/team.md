@@ -7,7 +7,4 @@ subheadline: "Das Team"
 permalink: "/projekt/team/"
 ---
 
-Das Team besteht aus:
-
-Bla bla bla
-
+Das Team
